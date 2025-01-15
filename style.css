@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .header {
+    background-color: #f0adad;
+    text-align: center;
+    color: aliceblue;
+  }
+  .header p {
+    margin: 25px;
+  }
+  .menu {
+    background-color: rgb(43, 32, 32);
+    padding: 10px;
+  }
+  .menu a {
+    margin-left: 25px;
+  }
