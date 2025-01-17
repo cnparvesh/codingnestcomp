@@ -1,21 +1,311 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  .header {
-    background-color: #f0adad;
-    text-align: center;
-    color: aliceblue;
-  }
-  .header p {
-    margin: 25px;
-  }
-  .menu {
-    background-color: rgb(43, 32, 32);
-    padding: 10px;
-  }
-  .menu a {
-    margin-left: 25px;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header {
+  background-color: #f0adad;
+  text-align: center;
+  color: aliceblue;
+}
+.header p {
+  margin: 25px;
+}
+.menu {
+  background-color: rgb(43, 32, 32);
+  padding: 10px;
+}
+.menu a {
+  margin-left: 25px;
+}
+.first-containor {
+  height: 150px;
+  width: 100%;
+  background-color: grey;
+}
+.first-containor h1 {
+  width: 318px;
+  margin-top: 0px;
+  margin-left: 50px;
+  padding-top: 20px;
+  color: white;
+}
+.first-containor p {
+  margin-left: 570px;
+  color: white;
+  margin-top: -60px;
+  font-size: x-large;
+}
+.first-containor img {
+  margin-left: 86%;
+  margin-top: -105px;
+}
+.about {
+  margin-top: 30px;
+  text-align: center;
+  color: black;
+}
+.about img {
+  margin-left: -1220px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.about p {
+  width: 1200px;
+  margin-left: 325px;
+  margin-top: -183px;
+}
+.about ul li {
+  margin-top: 50px;
+  margin-left: -565px;
+}
+.service {
+  margin-top: 50px;
+}
+.service h2 {
+  text-align: center;
+}
+.Cards {
+  width: 100%;
+  background-color: lightgrey;
+  height: 365px;
+}
+.first-card {
+  background-color: rgb(163, 162, 160);
+  width: 237px;
+  margin-left: 29px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.first-card h3 {
+  margin-top: 20px;
+  color: blueviolet;
+  margin-left: 20px;
+}
+.first-card p {
+  margin-top: 20px;
+  margin-left: 19px;
+}
+.second-card {
+  background-color: rgb(163, 162, 160);
+  width: 237px;
+  margin-left: 645px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: -334px;
+}
+.second-card h3 {
+  margin-top: 20px;
+  color: blueviolet;
+  margin-left: 20px;
+}
+.second-card p {
+  margin-top: 20px;
+  margin-left: 19px;
+}
+.third-card {
+  background-color: rgb(163, 162, 160);
+  width: 237px;
+  margin-left: 1255px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: -334px;
+}
+.third-card h3 {
+  margin-top: 20px;
+  color: blueviolet;
+  margin-left: 20px;
+}
+.third-card p {
+  margin-top: 20px;
+  margin-left: 19px;
+}
+.Project {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 300px;
+}
+.project-content h1 {
+  color: aliceblue;
+  padding-top: 30px;
+  margin-left: 90px;
+}
+.project-content h3 {
+  margin-top: 50px;
+  color: aliceblue;
+  margin-left: 90px;
+}
+#view {
+  color: rgb(244, 248, 253);
+  background-color: cornflowerblue;
+  margin-top: 60px;
+  margin-left: 90px;
+  font-size: 14px;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+}
+#see {
+  color: rgb(17, 116, 237);
+  background-color: rgb(236, 238, 242);
+  margin-top: 60px;
+  margin-left: 90px;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+}
+.project-containor {
+  margin-top: 100px;
+}
+.project-containor h1 {
+  text-align: center;
+}
+
+.project-card-1 img {
+  border-radius: 15px;
+}
+.project-card-1 {
+  background-color: rgb(243, 246, 246);
+  width: 500px;
+  border: 1px solid #ccc;
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); */
+  height: 500px;
+  margin-left: 70px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+.project-card-1 h2 {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.project-card-1 p {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.project-card-1 button {
+  margin-top: 20px;
+  margin-left: 75px;
+  border-radius: 05px;
+  /* box-shadow: 5px 5px 5px rgb(99, 79, 79); */
+  color: aliceblue;
+  background-color: #0b0a0a;
+  font-size: 15px;
+}
+.Project-card-2 img {
+  border-radius: 15px;
+}
+.Project-card-2 {
+  background-color: rgb(243, 246, 246);
+  width: 500px;
+  border: 1px solid #ccc;
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); */
+  height: 500px;
+  margin-left: 850px;
+  margin-top: -500px;
+  border-radius: 15px;
+}
+
+.Project-card-2 h2 {
+  margin-top: 20px;
+  margin-left: 160px;
+}
+.Project-card-2 p {
+  margin-top: 20px;
+  margin-left: 45px;
+}
+.Project-card-2 button {
+  margin-top: 20px;
+  margin-left: 75px;
+  border-radius: 05px;
+  /* box-shadow: 5px 5px 5px rgb(99, 79, 79); */
+  color: aliceblue;
+  background-color: #0b0a0a;
+  font-size: 15px;
+}
+.Project-card-3 img {
+  border-radius: 15px;
+}
+.Project-card-3 {
+  background-color: rgb(243, 246, 246);
+  width: 500px;
+  border: 1px solid #ccc;
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); */
+  height: 500px;
+  margin-left: 460px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.Project-card-3 h2 {
+  margin-top: 20px;
+  margin-left: 160px;
+}
+.Project-card-3 p {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.Project-card-3 button {
+  margin-top: 20px;
+  margin-left: 75px;
+  border-radius: 05px;
+  color: aliceblue;
+  background-color: #0b0a0a;
+  font-size: 15px;
+}
+.Project-cards {
+  margin-left: 30px;
+}
+.Contact {
+  margin-top: 50px;
+  background-color: #ccc;
+}
+.Contact h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: oblique;
+}
+.Contact h2 {
+  margin-top: 50px;
+  margin-left: 220px;
+  font-size: 30px;
+}
+.Contact h3 {
+  margin-top: 12px;
+  margin-left: 220px;
+}
+.form h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  margin-left: 30px;
+}
+input {
+  width: 95%;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+textarea {
+  width: 95%;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+button {
+  font-size: 15px;
+  width: 80px;
+  height: 30px;
+  color: aliceblue;
+  background-color: #0b0a0a;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 30px;
+}
